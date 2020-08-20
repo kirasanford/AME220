@@ -1,1 +1,4 @@
 # AME220Fall2020
+
+1. Kira Sanford
+2. 1212536167
