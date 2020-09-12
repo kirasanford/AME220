@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Raleway&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #89C893;
+	text-align: center;
+    overflow-x:hidden;
+}
+
+h1, h2 {
+	font-family: 'Megrim', cursive;
+}
+
+table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: #CD6858;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 3px solid #CD6858;
+	transition: all 0.25s linear;
+	position: relative;
+}
+
+a:before {
+	content: "";
+	width: 80%;
+	height: 3px;
+	background-color: #B74555;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	transform-origin: left; 
+	transform: scale(0);
+	transition: 0.25s linear;
+}
+
+a:hover {
+	color: #B74555;
+	font-weight: bold;
+}
+
+a:hover:before {	
+	transform: scale(1);
+}
