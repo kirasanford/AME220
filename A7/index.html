@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
+</head>
+<body>
+<button onclick='bounce()'>bounce</button>
+<button onclick='flash()'>flash</button>
+<button onclick='pulse()'>pulse</button>
+<button onclick='rubberBand()'>rubberBand</button>
+<button onclick='shakeX()'>shakeX</button>
+<button onclick='shakeY()'>shakeY</button>
+<button onclick='headShake()'>headShake</button>
+<button onclick='swing()'>swing</button>
+<button onclick='tada()'>tada</button>
+<button onclick='wobble()'>wobble</button>
+<button onclick='jello()'>jello</button>
+<button onclick='heartBeat()'>heartBeat</button>
+<button onclick='backInDown()'>backInDown</button>
+<button onclick='backInLeft()'>backInLeft</button>
+<button onclick='backInRight()'>backInRight</button>
+<button onclick='backInUp()'>backInUp</button>
+<button onclick='backOutDown()'>backOutDown</button>
+<button onclick='backOutLeft()'>backOutLeft</button>
+<button onclick='backOutRight()'>backOutRight</button>
+<button onclick='backOutUp()'>backOutUp</button>
+<button onclick='bounceIn()'>bounceIn</button>
+<button onclick='bounceInDown()'>bounceInDown</button>
+<button onclick='bounceInLeft()'>bounceInLeft</button>
+<button onclick='bounceInRight()'>bounceInRight</button>
+<button onclick='bounceInUp()'>bounceInUp</button>
+<button onclick='bounceOut()'>bounceOut</button>
+<button onclick='bounceOutDown()'>bounceOutDown</button>
+<button onclick='bounceOutLeft()'>bounceOutLeft</button>
+<button onclick='bounceOutRight()'>bounceOutRight</button>
+<button onclick='bounceOutUp()'>bounceOutUp</button>
+<button onclick='addAnimation(event)'></button>
+
+<div id='theDiv'>
+</div>
+</body>
+<style>
+#theDiv{
+  width: 80%;
+  height: 300px;
+  background:red;
+}
+</style>
+<script>
+element = document.getElementById("theDiv");
+
+function bounce(){
+	element.classList.add('animate__animated', 'animate__bounce');
+}
+function flash(){
+	element.classList.add('animate__animated', 'animate__flash');
+}
+function pulse(){
+	element.classList.add('animate__animated', 'animate__pulse');
+}
+function rubberBand(){
+	element.classList.add('animate__animated', 'animate__rubberBand');
+}
+function shakeX(){
+	element.classList.add('animate__animated', 'animate__shakeX');
+}
+function shakeY(){
+	element.classList.add('animate__animated', 'animate__shakeY');
+}
+function headShake(){
+	element.classList.add('animate__animated', 'animate__headShake');
+}
+function swing(){
+	element.classList.add('animate__animated', 'animate__swing');
+}
+function tada(){
+	element.classList.add('animate__animated', 'animate__tada');
+}
+function wobble(){
+	element.classList.add('animate__animated', 'animate__wobble');
+}
+function jello(){
+	element.classList.add('animate__animated', 'animate__jello');
+}
+function heartBeat(){
+	element.classList.add('animate__animated', 'animate__heartBeat');
+}
+
+function backInDown(){
+	element.classList.add('animate__animated', 'animate__backInDown');
+}
+function backInLeft(){
+	element.classList.add('animate__animated', 'animate__backInLeft');
+}
+function backInRight(){
+	element.classList.add('animate__animated', 'animate__backInRight');
+}
+function backInUp(){
+	element.classList.add('animate__animated', 'animate__backInUp');
+}
+
+function backOutDown(){
+	element.classList.add('animate__animated', 'animate__backOutDown');
+}
+function backOutLeft(){
+	element.classList.add('animate__animated', 'animate__backOutLeft');
+}
+function backOutRight(){
+	element.classList.add('animate__animated', 'animate__backOutRight');
+}
+function backOutUp(){
+	element.classList.add('animate__animated', 'animate__backOutUp');
+}
+
+function bounceIn(){
+	element.classList.add('animate__animated', 'animate__bounceIn');
+}
+function bounceInDown(){
+	element.classList.add('animate__animated', 'animate__bounceInDown');
+}
+function bounceInLeft(){
+	element.classList.add('animate__animated', 'animate__bounceInLeft');
+}
+function bounceInRight(){
+	element.classList.add('animate__animated', 'animate__bounceInRight');
+}
+function bounceInUp(){
+	element.classList.add('animate__animated', 'animate__bounceInUp');
+}
+
+function bounceOut(){
+	element.classList.add('animate__animated', 'animate__bounceOut');
+}
+function bounceOutDown(){
+	element.classList.add('animate__animated', 'animate__bounceOutDown');
+}
+function bounceOutLeft(){
+	element.classList.add('animate__animated', 'animate__bounceOutLeft');
+}
+function bounceOutRight(){
+	element.classList.add('animate__animated', 'animate__bounceOutRight');
+}
+function bounceOutUp(){
+	element.classList.add('animate__animated', 'animate__bounceOutUp');
+}
+
+function addAnimation(event){
+ var aName = event.target.innerHTML;
+ alert(aName);
+}
+</script>
+<html>
